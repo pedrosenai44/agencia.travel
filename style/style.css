@@ -1,0 +1,100 @@
+h1{
+    color: gold;
+    background-color: black;
+    text-align: center;
+    width: 70vw;
+    margin-left:15vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body{
+    background-image: url(../imagem/fundo.webp);
+    background-size: cover;
+}
+
+#menu {
+    width: 70vw;
+    margin-left: 15vw;
+    background-color: gold;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#menu div{
+    display: inline-block;
+    width: 13vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+#conteudo{
+    width: 70vw;
+    margin-left: 15vw;
+    background-color: white;
+    margin-top: 40px;
+}
+#conteudo div{
+    width: 13vw;
+    height: 13vw;
+    display: inline-block;
+    text-align: center;
+    margin-left: 3vw;
+    border: 1px solid gold;
+}
+#conteudo div img{
+    width: 13vw;
+    height: 200px;/*padronizando a altura das imagens*/
+}
+
+#destaque{
+    display: grid;/*muda a exibição dos elementos para tabela*/
+    grid-template-columns: 1fr 1fr; /*Determina que duas colunas*/
+    margin-left: 15vw;
+    width: 80vw;
+}
+#destaque div{
+    background-color: #FFFFFF;
+}
+#destaque div h2{
+    font-size: 30px;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#destaque div img{
+    width: 70%;
+    height: 400px;
+}
+#destaque div p{
+    font-size: 20px;
+    text-align: justify;
+    margin: 5px;
+    width: 70%;
+}
+/*inicio do css do bloco de 3 colunas chamado(ID) de noticias*/
+#noticias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 15vw;
+    width: 80vw;
+    background-color: #FFFFFF;
+}
+
+#noticias div img{
+    width: 70%;
+    height: 200px;
+}
+
+#noticias div p{
+    font-size: 20px;
+    text-align: justify;
+    margin: 5px;
+    width: 70%;
+}
+
+#noticias div h3{
+    color: blueviolet;
+    font-size: 25px;
+}
+
